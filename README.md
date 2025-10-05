@@ -37,14 +37,15 @@ The objective is to enhance **clarity, patient satisfaction, and healthcare outc
 
 ## Results  
 
-| Model                  | Accuracy |  |  Macro F1|
-|-------------------------|----------- |-----------|
-| Logistic Regression     | 67.65%     |  71%      |
-| SVM                     | 64.87%     |  71%      |
-| Random Forest           | 72.37%     |  71%      |
-| CNN                     | 71.04%     |  71%      |
-| Bi-LSTM                 | 73.57%     |  71%      |
-| **DeBERTa-v3-large**    | **83.57%** | **85%**   |
+| Model               | Accuracy | Macro F1 |
+|----------------------|-----------|----------|
+| Logistic Regression  | 67.65%    | 71%      |
+| SVM                  | 64.87%    | 70%      |
+| Random Forest        | 72.37%    | 74%      |
+| CNN                  | 71.04%    | 76%      |
+| Bi-LSTM              | 73.57%    | 78%      |
+| DeBERTa-v3-Large     | 83.57%    | 85%      |
+
 
 **Key Findings**  
 - Transformer-based models significantly outperformed traditional ML and deep learning baselines.  
