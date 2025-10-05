@@ -37,14 +37,14 @@ The objective is to enhance **clarity, patient satisfaction, and healthcare outc
 
 ## Results  
 
-| Model                  | Accuracy | Macro F1 |
-|-------------------------|----------|----------|
-| Logistic Regression     | 67.65%   | –        |
-| SVM                     | 64.87%   | –        |
-| Random Forest           | 72.37%   | –        |
-| CNN                     | 71.04%   | –        |
-| Bi-LSTM                 | 73.57%   | –        |
-| **DeBERTa-v3-large**    | **83.57%** | **85%** |
+| Model                  | Accuracy |  |  Macro F1|
+|-------------------------|----------- |-----------|
+| Logistic Regression     | 67.65%     |  71%      |
+| SVM                     | 64.87%     |  71%      |
+| Random Forest           | 72.37%     |  71%      |
+| CNN                     | 71.04%     |  71%      |
+| Bi-LSTM                 | 73.57%     |  71%      |
+| **DeBERTa-v3-large**    | **83.57%** | **85%**   |
 
 **Key Findings**  
 - Transformer-based models significantly outperformed traditional ML and deep learning baselines.  
@@ -52,22 +52,6 @@ The objective is to enhance **clarity, patient satisfaction, and healthcare outc
 - Handling class imbalance (focal loss, weighted loss) was critical to achieving balanced performance.  
 
 ---
-
-## How to Run  
-
-### 1. Clone Repository  
-```bash
-git clone https://github.com/your-username/medical-conversation-classification.git
-cd medical-conversation-classification
-
-### 2. Install Dependencies
-pip install -r requirements.txt
-
-### 3. Train Model
-python train.py --model deberta
-
-### 4. Evaluate Model
-python evaluate.py --model deberta
 
 ## Tools & Technologies
 
